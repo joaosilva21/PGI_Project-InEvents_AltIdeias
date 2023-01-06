@@ -9,7 +9,7 @@
 
 ## Description
 This project was developed for Management and Innovation Processes subject @University of Coimbra, Informatics Engineering <br>
-Consists in develop a innovative idea (in our case we choose an android app) and make various analysis to it (SWOT, Digital Marketing, Lean Canvas, etc).
+Consists in develop an innovative idea (in our case we choose an android app) and make various analysis to it (SWOT, Digital Marketing, Lean Canvas, etc).
 
 #### Main Languages:
 - Application <br>
