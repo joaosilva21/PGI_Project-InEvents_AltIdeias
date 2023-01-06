@@ -26,7 +26,7 @@ Consists in develop an innovative idea (in our case we choose an android app) an
 2. React Native
 
 ## Notes important to read
-- The application was not finished, but the code referred to it is basically a React Native Project, you can open this project in Android Studio
+- The application was not finished, but the code referred to it is basically a Flutter Project, you can open this project in Android Studio
 - The website is hosted by: https://inevents7.web.app
 
 ## Authors:
