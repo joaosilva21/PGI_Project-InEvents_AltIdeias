@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+html{
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+
+
+@media screen and (min-width: 769px){
+    *,
+    *:before,
+    *:after{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container3{
+        width: 16vw;
+        height: 23vh;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 43%;
+        top: 40%;
+        border-radius: 5px;
+        padding: 20px;
+        
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .apresentacao{
+        width: 40vw;
+        margin-top: 44%;
+        margin-left: 30%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        color:rgb(48, 228, 138);
+        background-color: inherit;
+        font-size: 1.5vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    body { 
+        background: url(background_2.png) no-repeat center center fixed; 
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: cover;
+
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .container{
+        width: 50vw;
+        left: 25vw ;
+        right: 25vw;
+        bottom: 15vw;
+        
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container h2{
+        text-align: center;
+        font-size: 3vw;
+        line-height: 4vw ;
+        color: rgb(48, 228, 138);
+        margin-top: -8vw
+    }
+
+    .countdown{
+        display: flex;
+        margin-top: -12.5vw;
+    }
+
+    .countdown div{
+        position: relative;
+        width: 5vw;
+        height: 5vw;
+        line-height: 5vw;
+        text-align: center;
+        background: rgb(48, 228, 138);
+        color: rgba(223, 19, 19, 0.589);
+        margin: 0% 1vw;
+        font-size: 2vw;
+        font-weight: 100vw;
+    }
+
+    .countdown div:before{
+        content: '';
+        position: absolute;
+        bottom: -1.7vw;
+        left: 0;
+        width: 5vw;
+        height: 4vh;
+        background: #aff0cf;
+        color: #333;
+        font-size: 0.8vw;
+        line-height: 1.7vw;
+        font-weight: 5vw;
+    }
+
+    .countdown div#Dias:before{
+        content: 'Dias';
+    }
+
+    .countdown div#Horas:before{
+        content: 'Horas';
+    }
+
+    .countdown div#Minutos:before{
+        content: 'Minutos';
+    }
+
+    .countdown div#Segundos:before{
+        content: 'Segundos';
+    }
+
+    .aviso{
+        width: 50vw;
+        left: 23vw ;
+        right: 25vw;
+        bottom: 0.5vw;
+        
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aviso h3{
+        text-align: center;
+        font-size: 0.7vw;
+        line-height: 1vw ;
+        color: #aff0cf;
+        margin-top: 2vw;
+    }
+
+    .insta{
+        transform: scale(0.1);
+        
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 50vw;
+        left: -20vw ;
+        right: 30vw;
+        bottom: -20vh;
+    }
+    
+    .facebook{
+        transform: scale(0.1);
+        
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 50vw;
+        left: -14.9vw ;
+        right: 25.1vw;
+        bottom: -20vh;;
+    }
+}
+
+@media screen and (max-width: 480px){
+    *,
+    *:before,
+    *:after{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container3{
+        width: 43vw;
+        height: 16.7vh;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 32.5%;
+        top: 35%;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .apresentacao{
+        width: 40vw;
+        margin-top: 130%;
+        margin-left: 30%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        color:rgb(48, 228, 138);
+        background-color: inherit;
+        font-size: 5vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    body { 
+        background: url(background2.png) no-repeat center center fixed; 
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: cover;
+
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .container{
+        width: 50vw;
+        left: 26.5vw ;
+        right: 26.5vw;
+        bottom: 70vw;
+        
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container h2{
+        text-align: center;
+        font-size: 5.4vw;
+        line-height: 7vw ;
+        color: rgb(48, 228, 138);
+        margin-top: -8vw
+    }
+
+    .countdown{
+        display: flex;
+        margin-top: -17.5vw;
+    }
+
+    .countdown div{
+        position: relative;
+        width: 9vw;
+        height: 9vw;
+        line-height: 9vw;
+        text-align: center;
+        background: rgb(48, 228, 138);
+        color: rgba(223, 19, 19, 0.589);
+        margin: 0% 2vw;
+        font-size: 4vw;
+        font-weight: 100vw;
+    }
+
+    .countdown div:before{
+        content: '';
+        position: absolute;
+        bottom: -2.7vw;
+        left: 0;
+        width: 9vw;
+        height: 2.5vh;
+        background: #aff0cf;
+        color: #333;
+        font-size: 1.5vw;
+        line-height: 3.5vw;
+        font-weight: 5vw;
+    }
+
+    .countdown div#Dias:before{
+        content: 'Dias';
+    }
+
+    .countdown div#Horas:before{
+        content: 'Horas';
+    }
+
+    .countdown div#Minutos:before{
+        content: 'Minutos';
+    }
+
+    .countdown div#Segundos:before{
+        content: 'Segundos';
+    }
+
+    .aviso{
+        width: 50vw;
+        left: 5vw ;
+        right: 45vw;
+        bottom: 14vh;
+        
+        position: absolute;
+        display: flex;
+    }
+
+    .aviso h3{
+        font-size: 1.5vw;
+        line-height: 1.5vw ;
+        color: #aff0cf;
+        margin-top: 2vw;
+    }
+
+    .insta{
+        transform: scale(0.05);
+        
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 50vw;
+        left: -18vw ;
+        right: 32vw;
+        bottom: -40vh;
+    }
+    
+    .facebook{
+        transform: scale(0.05);
+        
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 50vw;
+        left: -8.9vw ;
+        right: 41.1vw;
+        bottom: -40vh;;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    *,
+    *:before,
+    *:after{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container3{
+        width: 40vw;
+        height: 16.7vh;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 30%;
+        top: 40%;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .apresentacao{
+        width: 40vw;
+        margin-top: 130%;
+        margin-left: 25%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        color:rgb(48, 228, 138);
+        background-color: inherit;
+        font-size: 4vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    body { 
+        background: url(background_3.png) no-repeat center center fixed; 
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: cover;
+
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .container{
+        width: 50vw;
+        left: 26.5vw ;
+        right: 26.5vw;
+        bottom: 70vw;
+        
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container h2{
+        text-align: center;
+        font-size: 5.4vw;
+        line-height: 7vw ;
+        color: rgb(48, 228, 138);
+        margin-top: -8vw
+    }
+
+    .countdown{
+        display: flex;
+        margin-top: -17.5vw;
+    }
+
+    .countdown div{
+        position: relative;
+        width: 9vw;
+        height: 9vw;
+        line-height: 9vw;
+        text-align: center;
+        background: rgb(48, 228, 138);
+        color: rgba(223, 19, 19, 0.589);
+        margin: 0% 2vw;
+        font-size: 4vw;
+        font-weight: 100vw;
+    }
+
+    .countdown div:before{
+        content: '';
+        position: absolute;
+        bottom: -2.7vw;
+        left: 0;
+        width: 9vw;
+        height: 2.5vh;
+        background: #aff0cf;
+        color: #333;
+        font-size: 1.5vw;
+        line-height: 3.5vw;
+        font-weight: 5vw;
+    }
+
+    .countdown div#Dias:before{
+        content: 'Dias';
+    }
+
+    .countdown div#Horas:before{
+        content: 'Horas';
+    }
+
+    .countdown div#Minutos:before{
+        content: 'Minutos';
+    }
+
+    .countdown div#Segundos:before{
+        content: 'Segundos';
+    }
+
+    .aviso{
+        width: 50vw;
+        left: 5vw ;
+        right: 45vw;
+        bottom: 14vw;
+        
+        position: absolute;
+        display: flex;
+    }
+
+    .aviso h3{
+        font-size: 1.5vw;
+        line-height: 1.5vw ;
+        color: #aff0cf;
+        margin-top: 2vw;
+    }
+
+    .insta{
+        transform: scale(0.05);
+        
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 50vw;
+        left: -18vw ;
+        right: 32vw;
+        bottom: -40vh;
+    }
+    
+    .facebook{
+        transform: scale(0.05);
+        
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 50vw;
+        left: -8.9vw ;
+        right: 41.1vw;
+        bottom: -40vh;;
+    }
+}
